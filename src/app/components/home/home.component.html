@@ -1,1 +1,33 @@
-<p>home works!</p>
+<div class="home-container">
+    <div class="meus-cursos">
+        <h2>Meus cursos</h2>
+
+        <div class="cursos-display">
+            <div *ngFor="let data of cursos">
+                <div class="curso-container">
+                    <p>{{data.nome}}</p>
+                    <div class="bar-aulas">
+                        <div class="complete-bar"></div>
+                        <p>0/{{data.aulas.length}} aulas</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="recomendados">
+        <h2>Cursos recomendados</h2>
+
+        <div class="cursos-display">
+            <div *ngFor="let data of cursos">
+                <div class="curso-container">
+                    <p>{{data.nome}}</p>
+                    <div class="bar-aulas">
+                        <div class="complete-bar"></div>
+                        <p>0/{{data.aulas.length}} aulas</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

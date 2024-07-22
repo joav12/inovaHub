@@ -1,3 +1,11 @@
 <div class="search-bar-container">
     <input type="text" class="search-input" placeholder="faça sua pesquisa de curso aqui" id="search" [formControl]="search">
+
+    <div class="selection-display" [ngStyle]="{'display': search.value == '' ? 'none' : 'block'}" >
+        <div *ngFor="let data of cursos | filter: search.value">
+            <div class="cursos">
+                <p>{{data.nome}}</p>
+            </div>
+        </div>
+    </div>
 </div>
