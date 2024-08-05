@@ -1,0 +1,95 @@
+.conta-container{
+    .img-container{
+        width: 100%;
+        background-color: #D9D9D9;
+        border-radius: 14px;
+        height: 200px;
+        margin-bottom: -50px;
+    }
+
+    .icon-container{
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        margin-bottom: 30px;
+
+        .icon{
+            color: rgb(0, 88, 0);
+            background-color: #00be6c;
+            display: flex;
+            width: 170px;
+            height: 170px;
+            border-radius: 100%;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 8px;
+            font-size: 3rem;
+        }
+
+        .nome-cargo h2{
+            font-weight: 500;
+            margin-bottom: 5px;
+        }
+    }
+
+    .sobre-container{
+        display: flex;
+        font-weight: 500;
+        gap: 20px;
+
+        .perfil, .sobre-mim, .medalhas{
+            background: #F6F6F6;
+            border-radius: 14px;
+        }
+        
+        .title-btn{
+            display: flex;
+            justify-content: space-between;
+
+            a{
+                color: #0350C4;
+                text-decoration: none;
+            }
+        }
+
+        .perfil{
+            padding: 30px;
+            width: 585px;
+            height: 410px;
+
+            .title-btn{ margin-bottom: 50px; }
+
+            .title{ color: rgba(28, 29, 29, 0.50); }
+
+            .cidade, .email, .aniversario{ margin-bottom: 30px; }
+        }
+
+        .sobre-medalhas{
+            .sobre-mim, .medalhas{ padding: 20px; }
+
+            .sobre-mim{
+                width: 455px;
+                height: 150px;
+                margin-bottom: 20px;
+
+                .title-btn{ margin-bottom: 30px; }
+
+            }
+
+            .medalhas{
+                .title-btn{ margin-bottom: 10px; }
+
+                .medalhas-img{
+                    display: flex;
+                    justify-content: center;
+
+                    img{
+                        width: 120px;
+                        height: 79px;
+                    }
+                }
+            }
+        }
+    }
+}
