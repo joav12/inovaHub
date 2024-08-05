@@ -19,12 +19,12 @@
     </div>
 
     <div class="navlist">
-      <a href="#" class="setPage">
+      <a href="#" [ngClass]="page == '' ? 'setPage': ''">
         <img src="assets/icons/homeIcon.png" alt="home icon">
         <p>Home</p>
       </a>
 
-      <a href="#">
+      <a href="ranking" [ngClass]="page == '/ranking' ? 'setPage': ''">
         <img src="assets/icons/rankingIcon.png" alt="home icon">
         <p>Ranking</p>
       </a>

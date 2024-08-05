@@ -1,0 +1,89 @@
+.ranking-container{
+
+    .title{
+        text-align: center;
+        font-size: 25px;
+        margin-bottom: 30px;
+    }
+
+    .ranking{
+        .top3{
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            margin-bottom: 30px;
+
+            .card{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                .user-img{
+                    width: 88px;
+                    height: 88px;
+                    margin-bottom: -20px;
+                    z-index: 2;
+                }
+
+                .card-text-and-medals, .card-text-and-medals-top1{
+                    z-index: 1;
+                    display: flex;
+                    align-items: center;
+                    background-color: #F3F3F3;
+                    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+                    border-radius: 20px;
+                    width: 250px;
+                    height: 104px;
+
+                    .medal{
+                        img{
+                            width: 81px;
+                            height: 54px;
+                        }
+                    }
+
+                    .texts{
+                        text-align: center;
+
+                        .user-name{ font-size: 30px; }
+
+                        .cursos{ color: #8f8f8f; }
+                    }
+                }
+
+                .card-text-and-medals-top1{
+                    height: 120px;
+                    width: 280px;
+
+                    .medal{
+                        img{ margin-right: 10px; }
+                    }
+                }
+            }
+        }
+
+        .resto{
+            .table-header, .row{
+                padding: 10px 20px;
+                border-radius: 50px;
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 15px;
+
+                .rank-colaborador, .number-name{
+                    display: flex;
+                    gap: 50px;
+                }
+            }
+
+            .table-header{
+                background-color: #39D98A;
+                color: #ffff;
+            }
+
+            .row{
+                background-color: #E8E8E8;
+            }
+        }
+    }
+}
