@@ -4,13 +4,15 @@
 
         <div class="cursos-display">
             <div *ngFor="let data of cursos">
-                <div class="curso-container">
-                    <p>{{data.nome}}</p>
-                    <div class="bar-aulas">
-                        <div class="complete-bar"></div>
-                        <p>0/{{data.aulas.length}} aulas</p>
+                <a [routerLink]="['/roadmap', data.nomeUrl]">
+                    <div class="curso-container">
+                        <p>{{data.nome}}</p>
+                        <div class="bar-aulas">
+                            <div class="complete-bar"></div>
+                            <p>0/{{data.aulas.length}} aulas</p>
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
         </div>
     </div>
@@ -20,13 +22,15 @@
 
         <div class="cursos-display">
             <div *ngFor="let data of cursos">
-                <div class="curso-container">
-                    <p>{{data.nome}}</p>
-                    <div class="bar-aulas">
-                        <div class="complete-bar"></div>
-                        <p>0/{{data.aulas.length}} aulas</p>
+                <a [routerLink]="['/roadmap', data.nomeUrl]">
+                    <div class="curso-container">
+                        <p>{{data.nome}}</p>
+                        <div class="bar-aulas">
+                            <div class="complete-bar"></div>
+                            <p>0/{{data.aulas.length}} aulas</p>
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
         </div>
     </div>
