@@ -88,6 +88,23 @@
                         width: 120px;
                         height: 79px;
                     }
+
+                    .medalha-container{
+                        display: flex;
+                        align-items: end;
+
+                        .medals-number{
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            margin-left: -40px;
+                            color: #fff;
+                            width: 30px;
+                            height: 30px;
+                            background-color: #0350C4;
+                            border-radius: 100%;
+                        }
+                    }
                 }
             }
         }
