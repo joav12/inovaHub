@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
+import { CommonModule } from '@angular/common';
 
 //Mesma importação da home
 import mockData from "../../mocks/cursos-mock.json"
@@ -7,14 +8,17 @@ import mockData from "../../mocks/cursos-mock.json"
 @Component({
   selector: 'app-roadmap',
   standalone: true,
-  imports: [],
+  imports: [CommonModule],
   templateUrl: './roadmap.component.html',
   styleUrl: './roadmap.component.scss'
 })
 export class RoadmapComponent {
   constructor(private route: ActivatedRoute, private router: Router) {
     //Mesma explicação encontrada na search-bar
-    this.router.events.subscribe((val: any) => this.pegaNomeCursoURL())
+    this.router.events.subscribe((val: any) =>{
+      this.especifcCourse()
+      this.pegaNomeCursoURL()
+    })
   }
 
   public courseName: any
@@ -32,9 +36,5 @@ export class RoadmapComponent {
   //acredito que o nome seja auto-explicativo kkkkk
   pegaNomeCursoURL(){
     this.courseName = this.route.snapshot.paramMap.get('curso');
-  }
-
-  ngOnInit(): void {
-    this.especifcCourse()
   }
 }
