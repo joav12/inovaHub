@@ -1,93 +1,137 @@
 .roadmap-container{
-  header{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    font-weight: 500;
-    margin-bottom: 60px;
-
-    .btn-voltar{
+    header{
       display: flex;
+      justify-content: space-around;
       align-items: center;
-      gap: 5px;
-      text-decoration: none;
-      color: #0350C4;
-    }
-
-    .title{ font-size: 1.2rem; }
-
-    .bar-aulas{
-      display: flex;
-      align-items: center;
-      gap: 20px;
-
-      .complete-bar{
-        background-color: #C7C9D9;
-        width: 200px;
-        height: 15px;
-        border-radius: 14px;
-      }
-
-      p{
-        font-size: 12px;
-        color: #979797;
-      }
-    }
-  }
-
-  .roadmap{
-    width: 100%;
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: center;
-    align-items: center;
-
-    a{ text-decoration: none; color: #fffb00; }
-
-    .class-ball, .class-ball-curve{
-      display: flex;
-      width: 100px;
-      height: 100px;
-      background-color: rgb(99, 165, 0);
+      font-weight: 500;
       margin-bottom: 60px;
-      border-radius: 100%;
+  
+      .btn-voltar{
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        text-decoration: none;
+        color: #0350C4;
+      }
+  
+      .title{ font-size: 1.2rem; }
+  
+      .bar-aulas{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+  
+        .complete-bar{
+          background-color: #C7C9D9;
+          width: 200px;
+          height: 15px;
+          border-radius: 14px;
+        }
+  
+        p{
+          font-size: 12px;
+          color: #979797;
+        }
+      }
     }
-
-    .class-ball{
-      flex-direction: column;
+  
+    .roadmap{
+      width: 100%;
+      display: flex;
+      flex-direction: column-reverse;
       justify-content: center;
       align-items: center;
-
-      .ball-path{
-        width: 30px;
-        height: 80px;
-        background-color: rgb(99, 165, 0);
-        margin-top: -80px;
+  
+      a{ text-decoration: none; color: #FFCC00; }
+  
+      .class-ball, .class-ball-curve-mp2, .class-ball-curve-mp4, .class-ball-curve-odd-mp2, .class-ball-curve-odd-mp4{
+        display: flex;
+        width: 100px;
+        height: 100px;
+        background-color: #39D98A;
+        margin-bottom: 60px;
+        border-radius: 100%;
+      }
+  
+      .class-ball{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+  
+        .ball-path{
+          width: 20px;
+          height: 80px;
+          background-color: #39D98A;
+          margin-top: -80px;
+        }
+  
+        span{
+          font-size: 5rem;
+          z-index: 1;
+        }
+      }
+  
+      .class-ball-curve-mp2, .class-ball-curve-mp4, .class-ball-curve-odd-mp2, .class-ball-curve-odd-mp4{
+        align-items: center;
+  
+        .ball-path-curve{
+            color: #39D98A;
+            font-size: 200px;
+        }
+  
+        span{ font-size: 5rem; z-index: 1;}
       }
 
-      span{
-        font-size: 5rem;
-      }
+      .class-ball-curve-odd-mp2{
+            flex-direction: row-reverse;
+
+            .ball-path-curve{
+                rotate: 90deg;
+                margin-right: -120px;
+                margin-top: -100px;
+            }
+
+            span{ margin-right: -75px;  }
+        }
+
+      .class-ball-curve-mp2{
+            flex-direction: column;
+            margin-left: 230px;
+
+            .ball-path-curve{
+                margin-top: -150px;
+                margin-left: -100px;
+                rotate: 0deg;
+            }
+
+            span{ margin-top: -40px;  }
+        } 
+
+        .class-ball-curve-odd-mp4{
+            flex-direction: row;
+
+            .ball-path-curve{
+                rotate: 180deg;
+                margin-left: -120px;
+                margin-top: -100px;
+            }
+
+            span{ margin-right: -70px;  }
+        }
+
+      .class-ball-curve-mp4{
+            flex-direction: column;
+            margin-right: 230px;
+
+            .ball-path-curve{
+                margin-top: -150px;
+                margin-right: -100px;
+                rotate: 270deg;
+            }
+
+            span{ margin-top: -40px;  }
+        } 
+      
     }
 
-    .class-ball-curve{
-      flex-direction: row;
-      align-items: center;
-
-      .ball-path-curve-top{
-        background-color: rgb(99, 165, 0);
-        height: 200px;
-        width: 172px;
-        transition: 0.2s ease;
-        clip-path: polygon(31% 51%, 49% 51%, 48% 62%, 26% 66%, 20% 71%, 15% 80%, 13% 100%, 0 100%, 0 82%, 5% 65%, 15% 55%);
-        rotate: 180deg;
-        margin-right: -161px;
-        margin-bottom: -30px;
-      }
-
-      span{
-        font-size: 5rem;
-      }
-    }
-  }
 }

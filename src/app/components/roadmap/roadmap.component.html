@@ -14,28 +14,18 @@
 
     <div class="roadmap">
         <div *ngFor="let data of course.aulas; index as i">
-          <div *ngIf="course.aulas.length <= 3">
+          <div>
             <a href="">
-              <div class="class-ball">
-                <div class="ball-path" *ngIf="course.aulas[i+1]"></div>
-
-                <span class="material-symbols-outlined btn-play">
-                  arrow_right
+              <div [ngClass]="i >= course.aulas.length - retaFinal ? 'class-ball' : curvpath(i)" >
+                <div class="ball-path" *ngIf="course.aulas[i+1] && i >= course.aulas.length - retaFinal ? retornaFalse() : false"></div>
+                <span class="material-symbols-outlined ball-path-curve" *ngIf="i < course.aulas.length - retaFinal">
+                  line_curve
                 </span>
-              </div>
-            </a>
-          </div>
-
-          <div *ngIf="course.aulas.length > 3 && course.aulas.length <= 6">
-            <a href="">
-              <div [ngClass]="i >= course.aulas.length - 3 ? 'class-ball' : 'class-ball-curve'" >
-                <div class="ball-path" *ngIf="course.aulas[i+1] && i >= course.aulas.length - 3"></div>
-                <div class=" ball-path-curve-top" *ngIf="i < course.aulas.length - 3"></div>
 
 
                 <span class="material-symbols-outlined">
                   arrow_right
-                  </span>
+                </span>
               </div>
             </a>
           </div>

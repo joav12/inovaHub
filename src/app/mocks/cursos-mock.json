@@ -36,11 +36,11 @@
                 },
                 {
                     "nome": "aula quatro",
-                    "nomeUrl": "aula-tres"
+                    "nomeUrl": "aula-quatro"
                 },
                 {
                     "nome": "aula cinco",
-                    "nomeUrl": "aula-tres"
+                    "nomeUrl": "aula-cinco"
                 }
             ]
         },
@@ -62,19 +62,77 @@
                 },
                 {
                     "nome": "aula quatro",
-                    "nomeUrl": "aula-tres"
+                    "nomeUrl": "aula-quatro"
                 },
                 {
                     "nome": "aula cinco",
-                    "nomeUrl": "aula-tres"
+                    "nomeUrl": "aula-cinco"
                 },
                 {
                     "nome": "aula seis",
-                    "nomeUrl": "aula-tres"
+                    "nomeUrl": "aula-seis"
                 },
                 {
                     "nome": "aula sete",
+                    "nomeUrl": "aula-sete"
+                }
+            ]
+        },
+        {
+            "nome": "Curso teste quatro",
+            "nomeUrl": "curso-teste-quatro",
+            "aulas":[
+                {
+                    "nome": "aula um",
+                    "nomeUrl": "aula-um"
+                },
+                {
+                    "nome": "aula dois",
+                    "nomeUrl": "aula-dois"
+                },
+                {
+                    "nome": "aula tres",
                     "nomeUrl": "aula-tres"
+                },
+                {
+                    "nome": "aula quatro",
+                    "nomeUrl": "aula-quatro"
+                },
+                {
+                    "nome": "aula cinco",
+                    "nomeUrl": "aula-cinco"
+                },
+                {
+                    "nome": "aula seis",
+                    "nomeUrl": "aula-seis"
+                },
+                {
+                    "nome": "aula sete",
+                    "nomeUrl": "aula-sete"
+                },
+                {
+                    "nome": "aula oito",
+                    "nomeUrl": "aula-oito"
+                },
+                {
+                    "nome": "aula nove",
+                    "nomeUrl": "aula-nove"
+                },
+                {
+                    "nome": "aula dez",
+                    "nomeUrl": "aula-dez"
+                },
+                {
+                    "nome": "aula onze",
+                    "nomeUrl": "aula-onze"
+                },
+                {
+                    "nome": "aula dose",
+                    "nomeUrl": "aula-dose"
+                },
+                {
+                    "nome": "aula dose",
+                    "nomeUrl": "aula-dose"
                 }
             ]
         }
