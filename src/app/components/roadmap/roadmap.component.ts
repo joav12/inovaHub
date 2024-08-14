@@ -19,8 +19,10 @@ export class RoadmapComponent {
       this.especifcCourse()
       this.pegaNomeCursoURL()
       this.verificaTamanhoCurso()
+      this.verificaAulasCursos()
       this.espelhado = false;
       this.parOuImpar = false;
+      this.desceTodaTela();
     })
   }
 
@@ -29,6 +31,9 @@ export class RoadmapComponent {
   public espelhado:boolean = false;
   public parOuImpar:boolean = false;
   public retaFinal = 3;
+  public aulaStatus = '';
+  public retaFinalClass = '';
+  public iconName = 'arrow_right';
 
   //Essa função pega apenas o curso que tem o nome que está no parametro da url
   especifcCourse(){
@@ -45,12 +50,19 @@ export class RoadmapComponent {
   }
 
   verificaTamanhoCurso(){
-    if(this.course.aulas.length % 2 === 0){
-      this.retaFinal = 4
+    if(this.course.aulas.length <= 2){
+      this.retaFinal = this.course.aulas.length
     }
     else{
-      this.retaFinal = 3
+      if(this.course.aulas.length % 2 === 0){
+        this.retaFinal = 4
+      }
+      else{
+        this.retaFinal = 3
+      }
     }
+
+
   }
 
   //É italão, a magia do roadmap acontece nessa função abaixo parça
@@ -59,20 +71,20 @@ export class RoadmapComponent {
 
     if(trueIndex % 2 != 0){
       if(this.espelhado){
-        return 'class-ball-curve-odd-mp4'
+        return `class-ball-curve-odd-mp4 ${this.aulaStatus}`
       }
       else{
-        return 'class-ball-curve-odd-mp2'
+        return `class-ball-curve-odd-mp2 ${this.aulaStatus}`
       }
     }
     else{
       if(this.espelhado){
         this.espelhado = false
-        return 'class-ball-curve-mp4'
+        return `class-ball-curve-mp4 ${this.aulaStatus}`
       }
       else{
         this.espelhado = true
-        return 'class-ball-curve-mp2'
+        return `class-ball-curve-mp2 ${this.aulaStatus}`
       }
     }
 
@@ -82,5 +94,26 @@ export class RoadmapComponent {
   retornaFalse(){
     this.espelhado = false
     return true
+  }
+
+  verificaAulasCursos(){
+    const aulaDados = sessionStorage.getItem('aulaDados');
+
+    if(aulaDados != null){
+
+    }
+    else{
+      this.aulaStatus = 'lockedClass'
+      this.retaFinalClass = `class-ball ${this.aulaStatus}`
+      this.iconName = 'lock'
+    }
+
+  }
+
+  desceTodaTela(){
+    window.scrollTo({
+      top: document.body.scrollHeight,
+      behavior: "smooth",
+    });
   }
 }

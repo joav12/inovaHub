@@ -5,7 +5,7 @@
       align-items: center;
       font-weight: 500;
       margin-bottom: 60px;
-  
+
       .btn-voltar{
         display: flex;
         align-items: center;
@@ -13,37 +13,37 @@
         text-decoration: none;
         color: #0350C4;
       }
-  
+
       .title{ font-size: 1.2rem; }
-  
+
       .bar-aulas{
         display: flex;
         align-items: center;
         gap: 20px;
-  
+
         .complete-bar{
           background-color: #C7C9D9;
           width: 200px;
           height: 15px;
           border-radius: 14px;
         }
-  
+
         p{
           font-size: 12px;
           color: #979797;
         }
       }
     }
-  
+
     .roadmap{
       width: 100%;
       display: flex;
       flex-direction: column-reverse;
       justify-content: center;
       align-items: center;
-  
+
       a{ text-decoration: none; color: #FFCC00; }
-  
+
       .class-ball, .class-ball-curve-mp2, .class-ball-curve-mp4, .class-ball-curve-odd-mp2, .class-ball-curve-odd-mp4{
         display: flex;
         width: 100px;
@@ -52,33 +52,33 @@
         margin-bottom: 60px;
         border-radius: 100%;
       }
-  
+
       .class-ball{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-  
+
         .ball-path{
           width: 20px;
           height: 80px;
           background-color: #39D98A;
           margin-top: -80px;
         }
-  
+
         span{
           font-size: 5rem;
           z-index: 1;
         }
       }
-  
+
       .class-ball-curve-mp2, .class-ball-curve-mp4, .class-ball-curve-odd-mp2, .class-ball-curve-odd-mp4{
         align-items: center;
-  
+
         .ball-path-curve{
             color: #39D98A;
             font-size: 200px;
         }
-  
+
         span{ font-size: 5rem; z-index: 1;}
       }
 
@@ -105,7 +105,7 @@
             }
 
             span{ margin-top: -40px;  }
-        } 
+        }
 
         .class-ball-curve-odd-mp4{
             flex-direction: row;
@@ -130,8 +130,16 @@
             }
 
             span{ margin-top: -40px;  }
-        } 
-      
+        }
+
+        .lockedClass{
+          background-color: #d1d1d1;
+          color: #fff;
+
+          .ball-path-curve{ color: #d1d1d1; }
+
+          .ball-path{ background-color: #d1d1d1; }
+        }
     }
 
 }

@@ -16,7 +16,7 @@
         <div *ngFor="let data of course.aulas; index as i">
           <div>
             <a href="">
-              <div [ngClass]="i >= course.aulas.length - retaFinal ? 'class-ball' : curvpath(i)" >
+              <div [ngClass]="i >= course.aulas.length - retaFinal ? retaFinalClass : curvpath(i)" [id]="i == 0 ? 'aula1' : ''" >
                 <div class="ball-path" *ngIf="course.aulas[i+1] && i >= course.aulas.length - retaFinal ? retornaFalse() : false"></div>
                 <span class="material-symbols-outlined ball-path-curve" *ngIf="i < course.aulas.length - retaFinal">
                   line_curve
@@ -24,7 +24,7 @@
 
 
                 <span class="material-symbols-outlined">
-                  arrow_right
+                  {{iconName}}
                 </span>
               </div>
             </a>
