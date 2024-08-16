@@ -14,10 +14,10 @@
 
     <div class="roadmap">
         <div *ngFor="let data of course.aulas; index as i">
-          <div>
+          <div> {{verificaAulasCursos(i)}}
             <a href="">
               <div [ngClass]="i >= course.aulas.length - retaFinal ? retaFinalClass : curvpath(i)" [id]="i == 0 ? 'aula1' : ''" >
-                <div class="ball-path" *ngIf="course.aulas[i+1] && i >= course.aulas.length - retaFinal ? retornaFalse() : false"></div>
+                <div class="ball-path" *ngIf="course.aulas[i+1] && i >= course.aulas.length - retaFinal ? resetaEspelhado() : false"></div>
                 <span class="material-symbols-outlined ball-path-curve" *ngIf="i < course.aulas.length - retaFinal">
                   line_curve
                 </span>

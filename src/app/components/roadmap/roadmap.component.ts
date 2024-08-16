@@ -16,13 +16,14 @@ export class RoadmapComponent {
   constructor(private route: ActivatedRoute, private router: Router) {
     //Mesma explicação encontrada na search-bar
     this.router.events.subscribe((val: any) =>{
+      setTimeout(()=>{
+        this.desceTodaTela();
+      }, 200)
       this.especifcCourse()
       this.pegaNomeCursoURL()
       this.verificaTamanhoCurso()
-      this.verificaAulasCursos()
       this.espelhado = false;
       this.parOuImpar = false;
-      this.desceTodaTela();
     })
   }
 
@@ -91,23 +92,33 @@ export class RoadmapComponent {
     return null
   }
 
-  retornaFalse(){
+  resetaEspelhado(){
     this.espelhado = false
     return true
   }
 
-  verificaAulasCursos(){
-    const aulaDados = sessionStorage.getItem('aulaDados');
+  verificaAulasCursos(i: any){
+    const aulaDados = sessionStorage.getItem(`aulaDados${i}`);
 
-    if(aulaDados != null){
-
+    if(i == 0 && aulaDados == null){
+      this.aulaStatus = 'pendingClass'
+      this.iconName = 'arrow_right'
     }
     else{
-      this.aulaStatus = 'lockedClass'
-      this.retaFinalClass = `class-ball ${this.aulaStatus}`
-      this.iconName = 'lock'
+      if(aulaDados == null){
+        this.aulaStatus = 'lockedClass'
+        this.iconName = 'lock'
+      }
+      else if(aulaDados == 'pendente'){
+        this.aulaStatus = 'pendingClass'
+        this.iconName = 'arrow_right'
+      }
+      else{
+        this.aulaStatus = 'finishedClass'
+        this.iconName = 'arrow_right'
+      }
     }
-
+    this.retaFinalClass = `class-ball ${this.aulaStatus}`
   }
 
   desceTodaTela(){
