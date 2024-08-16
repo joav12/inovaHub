@@ -1,0 +1,34 @@
+<div class="roadmap-container">
+    <header>
+        <a href="#" class="btn-voltar"><span class="material-symbols-outlined">
+            arrow_circle_left
+            </span>Voltar</a>
+
+        <p class="title">{{course.nome}}</p>
+
+        <div class="bar-aulas">
+            <div class="complete-bar"></div>
+            <p>0/{{course.aulas.length}} aulas</p>
+        </div>
+    </header>
+
+    <div class="roadmap">
+        <div *ngFor="let data of course.aulas; index as i">
+          <div> {{verificaAulasCursos(i)}}
+            <a href="">
+              <div [ngClass]="i >= course.aulas.length - retaFinal ? retaFinalClass : curvpath(i)" [id]="i == 0 ? 'aula1' : ''" >
+                <div class="ball-path" *ngIf="course.aulas[i+1] && i >= course.aulas.length - retaFinal ? resetaEspelhado() : false"></div>
+                <span class="material-symbols-outlined ball-path-curve" *ngIf="i < course.aulas.length - retaFinal">
+                  line_curve
+                </span>
+
+
+                <span class="material-symbols-outlined">
+                  {{iconName}}
+                </span>
+              </div>
+            </a>
+          </div>
+        </div>
+    </div>
+</div>

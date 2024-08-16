@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { Router, RouterOutlet } from '@angular/router';
 import { SearchBarComponent } from "./components/search-bar/search-bar.component";
 import { CommonModule, Location } from '@angular/common';
 
@@ -18,15 +18,11 @@ export class AppComponent {
   public userName = 'André';
   public page = '';
 
-  constructor(private location: Location) {}
+  constructor(private location: Location, private router: Router) {
+    //Essa função verifica a url e qualquer mudança que ocorre nela. Ele faz isso para mudar o estilo dos botões da navbar
+    this.router.events.subscribe((val: any) => this.page = this.location.path())
+  }
 
   title = 'inovaHub';
 
-  verifyPage(){
-    return this.page = this.location.path();
-  }
-
-  ngOnInit(): void {
-    this.verifyPage()
-  }
 }

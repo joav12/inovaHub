@@ -3,9 +3,11 @@
 
     <div class="selection-display" [ngStyle]="{'display': search.value == '' ? 'none' : 'block'}" >
         <div *ngFor="let data of cursos | filter: search.value">
-            <div class="cursos">
-                <p>{{data.nome}}</p>
-            </div>
+            <a [routerLink]="['/roadmap', data.nomeUrl]">
+                <div class="cursos">
+                    <p>{{data.nome}}</p>
+                </div>
+            </a>    
         </div>
     </div>
 </div>
