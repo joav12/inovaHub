@@ -1,0 +1,37 @@
+.aula-container{
+  header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 500;
+    margin-bottom: 60px;
+
+    .btn-voltar{
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      text-decoration: none;
+      color: #0350C4;
+    }
+
+    .title{ font-size: 1.1rem; }
+
+    .bar-aulas{
+      display: flex;
+      align-items: center;
+      gap: 20px;
+
+      .complete-bar{
+        background-color: #C7C9D9;
+        width: 200px;
+        height: 15px;
+        border-radius: 14px;
+      }
+
+      p{
+        font-size: 12px;
+        color: #979797;
+      }
+    }
+  }
+}

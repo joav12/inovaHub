@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { CommonModule } from '@angular/common';
+import {RouterModule} from '@angular/router';
 
 //Mesma importação da home
 import mockData from "../../mocks/cursos-mock.json"
@@ -8,7 +9,7 @@ import mockData from "../../mocks/cursos-mock.json"
 @Component({
   selector: 'app-roadmap',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, RouterModule],
   templateUrl: './roadmap.component.html',
   styleUrl: './roadmap.component.scss'
 })
@@ -97,8 +98,8 @@ export class RoadmapComponent {
     return true
   }
 
-  verificaAulasCursos(i: any){
-    const aulaDados = sessionStorage.getItem(`aulaDados${i}`);
+  verificaAulasCursos(i: any, nomeCurso: any){
+    const aulaDados = sessionStorage.getItem(`aulaDados${i}${nomeCurso}`);
 
     if(i == 0 && aulaDados == null){
       this.aulaStatus = 'pendingClass'

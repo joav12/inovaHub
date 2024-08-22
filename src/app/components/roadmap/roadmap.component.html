@@ -14,8 +14,8 @@
 
     <div class="roadmap">
         <div *ngFor="let data of course.aulas; index as i">
-          <div> {{verificaAulasCursos(i)}}
-            <a href="">
+          <div> {{verificaAulasCursos(i, course.nomeUrl)}}
+            <a [routerLink]="aulaStatus !== 'lockedClass' ? ['aula', i+1] : ['/roadmap', course.nomeUrl]">
               <div [ngClass]="i >= course.aulas.length - retaFinal ? retaFinalClass : curvpath(i)" [id]="i == 0 ? 'aula1' : ''" >
                 <div class="ball-path" *ngIf="course.aulas[i+1] && i >= course.aulas.length - retaFinal ? resetaEspelhado() : false"></div>
                 <span class="material-symbols-outlined ball-path-curve" *ngIf="i < course.aulas.length - retaFinal">
