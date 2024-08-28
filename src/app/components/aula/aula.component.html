@@ -1,6 +1,6 @@
 <div class="aula-container">
   <header>
-    <a [routerLink]="['/roadmap', course.nomeUrl]" class="btn-voltar"><span class="material-symbols-outlined">
+    <a (click)="voltaEspecial()" class="btn-voltar"><span class="material-symbols-outlined">
         arrow_circle_left
         </span>Voltar</a>
 
@@ -12,7 +12,35 @@
     </div>
   </header>
 
-  <div class="textoOuVideo">
+  <div class="aula-content-container">
+    <div class="textoOuVideo" *ngIf="tipoAula == 'nenhuma'">
+      <h2>Escolha seu tipo de estudo</h2>
 
+      <div class="cards-container">
+        <div class="video" (click)="tipoAula = 'video'">
+          <div class="videoIcon">
+            <span class="material-symbols-outlined icon">
+              arrow_right
+            </span>
+          </div>
+
+          <p class="cardText">Aula por vídeo</p>
+        </div>
+
+        <div class="texto" (click)="tipoAula = 'texto'">
+          <div class="textIcon">
+            <span class="material-symbols-outlined icon">
+              description
+            </span>
+          </div>
+
+          <p class="cardText">Aula por texto</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-container" *ngIf="tipoAula == 'video'">aula video</div>
+
+    <div class="text-container" *ngIf="tipoAula == 'texto'">aula texto</div>
   </div>
 </div>

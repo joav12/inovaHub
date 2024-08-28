@@ -6,14 +6,17 @@
             "aulas":[
                 {
                     "nome": "aula um",
+                    "title": "titulo da aula",
                     "nomeUrl": "aula-um"
                 },
                 {
                     "nome": "aula dois",
+                    "title": "titulo da aula",
                     "nomeUrl": "aula-dois"
                 },
                 {
                     "nome": "aula tres",
+                    "title": "titulo da aula",
                     "nomeUrl": "aula-tres"
                 }
             ]
@@ -24,22 +27,27 @@
             "aulas":[
                 {
                     "nome": "aula um",
+                    "title": "titulo da aula",
                     "nomeUrl": "aula-um"
                 },
                 {
                     "nome": "aula dois",
+                    "title": "titulo da aula",
                     "nomeUrl": "aula-dois"
                 },
                 {
                     "nome": "aula tres",
+                    "title": "titulo da aula",
                     "nomeUrl": "aula-tres"
                 },
                 {
                     "nome": "aula quatro",
+                    "title": "titulo da aula",
                     "nomeUrl": "aula-quatro"
                 },
                 {
                     "nome": "aula cinco",
+                    "title": "titulo da aula",
                     "nomeUrl": "aula-cinco"
                 }
             ]
@@ -50,30 +58,37 @@
             "aulas":[
                 {
                     "nome": "aula um",
+                    "title": "titulo da aula",
                     "nomeUrl": "aula-um"
                 },
                 {
                     "nome": "aula dois",
+                    "title": "titulo da aula",
                     "nomeUrl": "aula-dois"
                 },
                 {
                     "nome": "aula tres",
+                    "title": "titulo da aula",
                     "nomeUrl": "aula-tres"
                 },
                 {
                     "nome": "aula quatro",
+                    "title": "titulo da aula",
                     "nomeUrl": "aula-quatro"
                 },
                 {
                     "nome": "aula cinco",
+                    "title": "titulo da aula",
                     "nomeUrl": "aula-cinco"
                 },
                 {
                     "nome": "aula seis",
+                    "title": "titulo da aula",
                     "nomeUrl": "aula-seis"
                 },
                 {
                     "nome": "aula sete",
+                    "title": "titulo da aula",
                     "nomeUrl": "aula-sete"
                 }
             ]
@@ -84,50 +99,62 @@
             "aulas":[
                 {
                     "nome": "aula um",
+                    "title": "titulo da aula",
                     "nomeUrl": "aula-um"
                 },
                 {
                     "nome": "aula dois",
+                    "title": "titulo da aula",
                     "nomeUrl": "aula-dois"
                 },
                 {
                     "nome": "aula tres",
+                    "title": "titulo da aula",
                     "nomeUrl": "aula-tres"
                 },
                 {
                     "nome": "aula quatro",
+                    "title": "titulo da aula",
                     "nomeUrl": "aula-quatro"
                 },
                 {
                     "nome": "aula cinco",
+                    "title": "titulo da aula",
                     "nomeUrl": "aula-cinco"
                 },
                 {
                     "nome": "aula seis",
+                    "title": "titulo da aula",
                     "nomeUrl": "aula-seis"
                 },
                 {
                     "nome": "aula sete",
+                    "title": "titulo da aula",
                     "nomeUrl": "aula-sete"
                 },
                 {
                     "nome": "aula oito",
+                    "title": "titulo da aula",
                     "nomeUrl": "aula-oito"
                 },
                 {
                     "nome": "aula nove",
+                    "title": "titulo da aula",
                     "nomeUrl": "aula-nove"
                 },
                 {
                     "nome": "aula dez",
+                    "title": "titulo da aula",
                     "nomeUrl": "aula-dez"
                 },
                 {
                     "nome": "aula onze",
+                    "title": "titulo da aula",
                     "nomeUrl": "aula-onze"
                 },
                 {
                     "nome": "aula dose",
+                    "title": "titulo da aula",
                     "nomeUrl": "aula-dose"
                 }
             ]

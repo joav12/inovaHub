@@ -24,6 +24,7 @@ export class AulaComponent {
   public courseName: any;
   public classId: any;
   public course: any;
+  public tipoAula = 'nenhuma';
 
   pegaNomeCursoURL(){
     this.courseName = this.route.snapshot.paramMap.get('curso');
@@ -35,6 +36,15 @@ export class AulaComponent {
       if(value.nomeUrl == this.courseName){
         this.course = value;
       }
+    }
+  }
+
+  voltaEspecial(){
+    if(this.tipoAula == 'nenhuma'){
+      this.router.navigate([`/roadmap/${this.course.nomeUrl}`], { relativeTo: this.route });
+    }
+    else{
+      this.tipoAula = 'nenhuma';
     }
   }
 
