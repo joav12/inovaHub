@@ -23,7 +23,6 @@
       gap: 20px;
 
       .complete-bar{
-        background-color: #C7C9D9;
         width: 200px;
         height: 15px;
         border-radius: 14px;
@@ -101,6 +100,37 @@
           box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
         }
       }
+    }
+
+    .video-container, .text-container{
+      width: 90%;
+      margin: 0 auto;
+      height: 100%;
+      background-color: #39D98A;
+      border-radius: 14px;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .title{
+        color: #fff;
+        font-size: 1.6rem;
+        margin-bottom: 30px;
+      }
+
+      .btn-avancar{
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        background-color: #00F587;
+        padding: 8px;
+        border-radius: 14px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        transition: all ease-in-out 0.2s;
+      }
+
+      .btn-avancar:hover{ background-color: #00c56c; }
     }
   }
 }

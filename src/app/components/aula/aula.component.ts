@@ -25,6 +25,7 @@ export class AulaComponent {
   public classId: any;
   public course: any;
   public tipoAula = 'nenhuma';
+  public aulasFeitasNum: any;
 
   pegaNomeCursoURL(){
     this.courseName = this.route.snapshot.paramMap.get('curso');
@@ -39,6 +40,23 @@ export class AulaComponent {
     }
   }
 
+  verificaAulasFeitas(nomeCurso: any){
+    this.aulasFeitasNum = sessionStorage.getItem(`aulasFeitas${nomeCurso}`);
+
+    if(this.aulasFeitasNum == null){
+      return `${0}`;
+    }
+    else{
+      return `${this.aulasFeitasNum}`
+    }
+  }
+
+  tamanhoBarraAulas(){
+    const porcentagemDeAulasFeitas = (this.aulasFeitasNum * 100) / this.course.aulas.length
+
+    return { 'background': "linear-gradient(to right, #0063F7 " + porcentagemDeAulasFeitas + "%, #C7C9D9 " + porcentagemDeAulasFeitas + "%)" }
+  }
+
   voltaEspecial(){
     if(this.tipoAula == 'nenhuma'){
       this.router.navigate([`/roadmap/${this.course.nomeUrl}`], { relativeTo: this.route });
@@ -48,5 +66,11 @@ export class AulaComponent {
     }
   }
 
+  finalizaAula(){
+    sessionStorage.setItem(`aulaDados${this.classId-1}${this.course.nomeUrl}`, 'finishedClass');
+    sessionStorage.setItem(`aulaDados${this.classId}${this.course.nomeUrl}`, 'pendente');
+    sessionStorage.setItem(`aulasFeitas${this.course.nomeUrl}`, this.classId);
+    this.router.navigate([`/roadmap/${this.course.nomeUrl}`]);
+  }
 
 }

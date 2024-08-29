@@ -1,14 +1,17 @@
 <div class="aula-container">
   <header>
-    <a (click)="voltaEspecial()" class="btn-voltar"><span class="material-symbols-outlined">
+    <a (click)="voltaEspecial()" class="btn-voltar">
+      <span class="material-symbols-outlined">
         arrow_circle_left
-        </span>Voltar</a>
+      </span>
+      Voltar
+    </a>
 
     <p class="title">{{course.nome}} - aula {{classId}}</p>
 
     <div class="bar-aulas">
-        <div class="complete-bar"></div>
-        <p>0/{{course.aulas.length}} aulas</p>
+        <div class="complete-bar" [ngStyle]="tamanhoBarraAulas()"></div>
+        <p>{{verificaAulasFeitas(course.nomeUrl)}}/{{course.aulas.length}} aulas</p>
     </div>
   </header>
 
@@ -39,8 +42,32 @@
       </div>
     </div>
 
-    <div class="video-container" *ngIf="tipoAula == 'video'">aula video</div>
+    <div class="video-container" *ngIf="tipoAula == 'video'">
+      <h2 class="title">aula {{classId}}: {{course.aulas[classId-1].title}}</h2>
 
-    <div class="text-container" *ngIf="tipoAula == 'texto'">aula texto</div>
+      <div class="video-display">ESSE VAI SER O DISPLAY DO VIDEOOOO</div>
+
+      <a (click)="finalizaAula()" class="btn-avancar">
+        Avançar
+        <span class="material-symbols-outlined">
+          arrow_circle_right
+        </span>
+      </a>
+
+    </div>
+
+    <div class="text-container" *ngIf="tipoAula == 'texto'">
+      <h2 class="title">aula {{classId}}: {{course.aulas[classId-1].title}}</h2>
+
+      <div class="text-display">ESSE VAI SER O DISPLAY DO TEXTOOOOO</div>
+
+      <a (click)="finalizaAula()" class="btn-avancar">
+        Avançar
+        <span class="material-symbols-outlined">
+          arrow_circle_right
+        </span>
+      </a>
+
+    </div>
   </div>
 </div>

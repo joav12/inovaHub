@@ -7,8 +7,8 @@
         <p class="title">{{course.nome}}</p>
 
         <div class="bar-aulas">
-            <div class="complete-bar"></div>
-            <p>0/{{course.aulas.length}} aulas</p>
+            <div class="complete-bar" [ngStyle]="tamanhoBarraAulas()"></div>
+            <p>{{verificaAulasFeitas(course.nomeUrl)}}/{{course.aulas.length}} aulas</p>
         </div>
     </header>
 
