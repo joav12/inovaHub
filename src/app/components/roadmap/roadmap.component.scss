@@ -85,6 +85,9 @@
             flex-direction: row-reverse;
 
             .ball-path-curve{
+              background: linear-gradient(#d1d1d1 30%, #39D98A 50%);
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
                 rotate: 90deg;
                 margin-right: -120px;
                 margin-top: -100px;
@@ -98,6 +101,9 @@
             margin-left: 230px;
 
             .ball-path-curve{
+              background: linear-gradient(#d1d1d1 30%, #39D98A 50%);
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
                 margin-top: -150px;
                 margin-left: -100px;
                 rotate: 0deg;
@@ -110,6 +116,9 @@
             flex-direction: row;
 
             .ball-path-curve{
+                background: linear-gradient(#39D98A 30%, #d1d1d1 50%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
                 rotate: 180deg;
                 margin-left: -120px;
                 margin-top: -100px;
@@ -123,6 +132,9 @@
             margin-right: 230px;
 
             .ball-path-curve{
+                background: linear-gradient(#39D98A 30%, #d1d1d1 50%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent ;
                 margin-top: -150px;
                 margin-right: -100px;
                 rotate: 270deg;
@@ -135,7 +147,11 @@
           background-color: #d1d1d1;
           color: #fff;
 
-          .ball-path-curve{ color: #d1d1d1; }
+          .ball-path-curve{
+            background: #d1d1d1;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+          }
 
           .ball-path{ background-color: #d1d1d1; }
         }
@@ -144,12 +160,6 @@
           background-color: #39D98A;
           color: #fff;
 
-          .ball-path-curve{
-            background: linear-gradient(#d1d1d1 20%, #39D98A 50%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-          }
-
           .ball-path{ background: linear-gradient(#d1d1d1 20%, #39D98A 100%); }
         }
 
@@ -157,9 +167,12 @@
           background-color: #39D98A;
           color: #FFCC00;
 
-          .ball-path-curve{ color: #39D98A; }
+          .ball-path-curve{ background: #39D98A;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+          }
 
-          .ball-path{ background-color: #39D98A; }
+          .ball-path{ background-color: #39D98A;}
         }
     }
 
