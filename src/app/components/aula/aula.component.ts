@@ -1,10 +1,11 @@
-import { Component } from '@angular/core';
+import { Component, Sanitizer } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import {RouterModule} from '@angular/router';
 import { CommonModule } from '@angular/common';
 
 //Mesma importação da home
 import mockData from "../../mocks/cursos-mock.json"
+import { DomSanitizer } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-aula',
@@ -14,7 +15,7 @@ import mockData from "../../mocks/cursos-mock.json"
   styleUrl: './aula.component.scss'
 })
 export class AulaComponent {
-  constructor(private route: ActivatedRoute, private router: Router){
+  constructor(private route: ActivatedRoute, private router: Router, private sanitazer: DomSanitizer){
     this.router.events.subscribe((val: any) =>{
       this.pegaNomeCursoURL()
       this.especifcCourse()
@@ -26,6 +27,7 @@ export class AulaComponent {
   public course: any;
   public tipoAula = 'nenhuma';
   public aulasFeitasNum: any;
+  public aulaVideo: any;
 
   pegaNomeCursoURL(){
     this.courseName = this.route.snapshot.paramMap.get('curso');
@@ -73,4 +75,12 @@ export class AulaComponent {
     this.router.navigate([`/roadmap/${this.course.nomeUrl}`]);
   }
 
+  retornaVideo(){
+    this.aulaVideo = this.course.aulas[this.classId-1].video;
+    return this.sanitazer.bypassSecurityTrustResourceUrl(this.aulaVideo)
+  }
+
+  ngOnInit(): void{
+    this.retornaVideo();
+  }
 }
