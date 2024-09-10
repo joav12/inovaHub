@@ -1,14 +1,77 @@
 <div class="aula-container">
   <header>
-    <a [routerLink]="['/roadmap', course.nomeUrl]" class="btn-voltar"><span class="material-symbols-outlined">
+    <a (click)="voltaEspecial()" class="btn-voltar">
+      <span class="material-symbols-outlined">
         arrow_circle_left
-        </span>Voltar</a>
+      </span>
+      Voltar
+    </a>
 
     <p class="title">{{course.nome}} - aula {{classId}}</p>
 
     <div class="bar-aulas">
-        <div class="complete-bar"></div>
-        <p>0/{{course.aulas.length}} aulas</p>
+        <div class="complete-bar" [ngStyle]="tamanhoBarraAulas()"></div>
+        <p>{{verificaAulasFeitas(course.nomeUrl)}}/{{course.aulas.length}} aulas</p>
     </div>
   </header>
+
+  <div class="aula-content-container">
+    <div class="textoOuVideo" *ngIf="tipoAula == 'nenhuma'">
+      <h2>Escolha seu tipo de estudo</h2>
+
+      <div class="cards-container">
+        <div class="video" (click)="tipoAula = 'video'">
+          <div class="videoIcon">
+            <span class="material-symbols-outlined icon">
+              arrow_right
+            </span>
+          </div>
+
+          <p class="cardText">Aula por vídeo</p>
+        </div>
+
+        <div class="texto" (click)="tipoAula = 'texto'">
+          <div class="textIcon">
+            <span class="material-symbols-outlined icon">
+              description
+            </span>
+          </div>
+
+          <p class="cardText">Aula por texto</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-container" *ngIf="tipoAula == 'video'">
+      <h2 class="title">aula {{classId}}: {{course.aulas[classId-1].title}}</h2>
+
+      <div class="video-display">
+        <iframe width="460" height="250" [src]='retornaVideo()' frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+
+      <a (click)="finalizaAula()" class="btn-avancar">
+        Avançar
+        <span class="material-symbols-outlined">
+          arrow_circle_right
+        </span>
+      </a>
+
+    </div>
+
+    <div class="text-container" *ngIf="tipoAula == 'texto'">
+      <h2 class="title">aula {{classId}}: {{course.aulas[classId-1].title}}</h2>
+
+      <div class="text-display">
+        <p>{{course.aulas[classId-1].texto}}</p>
+      </div>
+
+      <a (click)="finalizaAula()" class="btn-avancar">
+        Avançar
+        <span class="material-symbols-outlined">
+          arrow_circle_right
+        </span>
+      </a>
+
+    </div>
+  </div>
 </div>

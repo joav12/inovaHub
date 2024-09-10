@@ -5,6 +5,7 @@ import {RouterModule} from '@angular/router';
 
 //Mesma importação da home
 import mockData from "../../mocks/cursos-mock.json"
+import { Console } from 'node:console';
 
 @Component({
   selector: 'app-roadmap',
@@ -36,6 +37,7 @@ export class RoadmapComponent {
   public aulaStatus = '';
   public retaFinalClass = '';
   public iconName = 'arrow_right';
+  public aulasFeitasNum: any;
 
   //Essa função pega apenas o curso que tem o nome que está no parametro da url
   especifcCourse(){
@@ -120,6 +122,23 @@ export class RoadmapComponent {
       }
     }
     this.retaFinalClass = `class-ball ${this.aulaStatus}`
+  }
+
+  verificaAulasFeitas(nomeCurso: any){
+    this.aulasFeitasNum = sessionStorage.getItem(`aulasFeitas${nomeCurso}`);
+
+    if(this.aulasFeitasNum == null){
+      return `${0}`;
+    }
+    else{
+      return `${this.aulasFeitasNum}`
+    }
+  }
+
+  tamanhoBarraAulas(){
+    const porcentagemDeAulasFeitas = (this.aulasFeitasNum * 100) / this.course.aulas.length
+
+    return { 'background': "linear-gradient(to right, #0063F7 " + porcentagemDeAulasFeitas + "%, #C7C9D9 " + porcentagemDeAulasFeitas + "%)" }
   }
 
   desceTodaTela(){

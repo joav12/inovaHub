@@ -3,132 +3,217 @@
         {
             "nome": "Curso teste um",
             "nomeUrl": "curso-teste-um",
+            "nivel": "iniciante",
             "aulas":[
                 {
                     "nome": "aula um",
-                    "nomeUrl": "aula-um"
+                    "title": "titulo da aula",
+                    "nomeUrl": "aula-um",
+                    "video": "https://www.youtube.com/embed/HAt4U65esaM?si=pubVGsxYzv_2QgmS",
+                    "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
                 },
                 {
                     "nome": "aula dois",
-                    "nomeUrl": "aula-dois"
+                    "title": "titulo da aula",
+                    "nomeUrl": "aula-dois",
+                    "video": "https://www.youtube.com/embed/HAt4U65esaM?si=pubVGsxYzv_2QgmS",
+                    "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
                 },
                 {
                     "nome": "aula tres",
-                    "nomeUrl": "aula-tres"
+                    "title": "titulo da aula",
+                    "nomeUrl": "aula-tres",
+                    "video": "https://www.youtube.com/embed/HAt4U65esaM?si=pubVGsxYzv_2QgmS",
+                    "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
                 }
             ]
         },
         {
             "nome": "Curso teste dois",
             "nomeUrl": "curso-teste-dois",
+            "nivel": "intermediario",
             "aulas":[
                 {
                     "nome": "aula um",
-                    "nomeUrl": "aula-um"
+                    "title": "titulo da aula",
+                    "nomeUrl": "aula-um",
+                    "video": "https://www.youtube.com/embed/HAt4U65esaM?si=pubVGsxYzv_2QgmS",
+                    "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
                 },
                 {
                     "nome": "aula dois",
-                    "nomeUrl": "aula-dois"
+                    "title": "titulo da aula",
+                    "nomeUrl": "aula-dois",
+                    "video": "https://www.youtube.com/embed/HAt4U65esaM?si=pubVGsxYzv_2QgmS",
+                    "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
                 },
                 {
                     "nome": "aula tres",
-                    "nomeUrl": "aula-tres"
+                    "title": "titulo da aula",
+                    "nomeUrl": "aula-tres",
+                    "video": "https://www.youtube.com/embed/HAt4U65esaM?si=pubVGsxYzv_2QgmS",
+                    "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
                 },
                 {
                     "nome": "aula quatro",
-                    "nomeUrl": "aula-quatro"
+                    "title": "titulo da aula",
+                    "nomeUrl": "aula-quatro",
+                    "video": "https://www.youtube.com/embed/HAt4U65esaM?si=pubVGsxYzv_2QgmS",
+                    "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
                 },
                 {
                     "nome": "aula cinco",
-                    "nomeUrl": "aula-cinco"
+                    "title": "titulo da aula",
+                    "nomeUrl": "aula-cinco",
+                    "video": "https://www.youtube.com/embed/HAt4U65esaM?si=pubVGsxYzv_2QgmS",
+                    "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
                 }
             ]
         },
         {
             "nome": "Curso teste tres",
             "nomeUrl": "curso-teste-tres",
+            "nivel": "avancado",
             "aulas":[
                 {
                     "nome": "aula um",
-                    "nomeUrl": "aula-um"
+                    "title": "titulo da aula",
+                    "nomeUrl": "aula-um",
+                    "video": "https://www.youtube.com/embed/HAt4U65esaM?si=pubVGsxYzv_2QgmS",
+                    "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
                 },
                 {
                     "nome": "aula dois",
-                    "nomeUrl": "aula-dois"
+                    "title": "titulo da aula",
+                    "nomeUrl": "aula-dois",
+                    "video": "https://www.youtube.com/embed/HAt4U65esaM?si=pubVGsxYzv_2QgmS",
+                    "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
                 },
                 {
                     "nome": "aula tres",
-                    "nomeUrl": "aula-tres"
+                    "title": "titulo da aula",
+                    "nomeUrl": "aula-tres",
+                    "video": "https://www.youtube.com/embed/HAt4U65esaM?si=pubVGsxYzv_2QgmS",
+                    "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
                 },
                 {
                     "nome": "aula quatro",
-                    "nomeUrl": "aula-quatro"
+                    "title": "titulo da aula",
+                    "nomeUrl": "aula-quatro",
+                    "video": "https://www.youtube.com/embed/HAt4U65esaM?si=pubVGsxYzv_2QgmS",
+                    "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
                 },
                 {
                     "nome": "aula cinco",
-                    "nomeUrl": "aula-cinco"
+                    "title": "titulo da aula",
+                    "nomeUrl": "aula-cinco",
+                    "video": "https://www.youtube.com/embed/HAt4U65esaM?si=pubVGsxYzv_2QgmS",
+                    "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
                 },
                 {
                     "nome": "aula seis",
-                    "nomeUrl": "aula-seis"
+                    "title": "titulo da aula",
+                    "nomeUrl": "aula-seis",
+                    "video": "https://www.youtube.com/embed/HAt4U65esaM?si=pubVGsxYzv_2QgmS",
+                    "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
                 },
                 {
                     "nome": "aula sete",
-                    "nomeUrl": "aula-sete"
+                    "title": "titulo da aula",
+                    "nomeUrl": "aula-sete",
+                    "video": "https://www.youtube.com/embed/HAt4U65esaM?si=pubVGsxYzv_2QgmS",
+                    "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
                 }
             ]
         },
         {
             "nome": "Curso teste quatro",
             "nomeUrl": "curso-teste-quatro",
+            "nivel": "avancado",
             "aulas":[
                 {
                     "nome": "aula um",
-                    "nomeUrl": "aula-um"
+                    "title": "titulo da aula",
+                    "nomeUrl": "aula-um",
+                    "video": "https://www.youtube.com/embed/HAt4U65esaM?si=pubVGsxYzv_2QgmS",
+                    "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
                 },
                 {
                     "nome": "aula dois",
-                    "nomeUrl": "aula-dois"
+                    "title": "titulo da aula",
+                    "nomeUrl": "aula-dois",
+                    "video": "https://www.youtube.com/embed/HAt4U65esaM?si=pubVGsxYzv_2QgmS",
+                    "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
                 },
                 {
                     "nome": "aula tres",
-                    "nomeUrl": "aula-tres"
+                    "title": "titulo da aula",
+                    "nomeUrl": "aula-tres",
+                    "video": "https://www.youtube.com/embed/HAt4U65esaM?si=pubVGsxYzv_2QgmS",
+                    "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
                 },
                 {
                     "nome": "aula quatro",
-                    "nomeUrl": "aula-quatro"
+                    "title": "titulo da aula",
+                    "nomeUrl": "aula-quatro",
+                    "video": "https://www.youtube.com/embed/HAt4U65esaM?si=pubVGsxYzv_2QgmS",
+                    "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
                 },
                 {
                     "nome": "aula cinco",
-                    "nomeUrl": "aula-cinco"
+                    "title": "titulo da aula",
+                    "nomeUrl": "aula-cinco",
+                    "video": "https://www.youtube.com/embed/HAt4U65esaM?si=pubVGsxYzv_2QgmS",
+                    "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
                 },
                 {
                     "nome": "aula seis",
-                    "nomeUrl": "aula-seis"
+                    "title": "titulo da aula",
+                    "nomeUrl": "aula-seis",
+                    "video": "https://www.youtube.com/embed/HAt4U65esaM?si=pubVGsxYzv_2QgmS",
+                    "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
                 },
                 {
                     "nome": "aula sete",
-                    "nomeUrl": "aula-sete"
+                    "title": "titulo da aula",
+                    "nomeUrl": "aula-sete",
+                    "video": "https://www.youtube.com/embed/HAt4U65esaM?si=pubVGsxYzv_2QgmS",
+                    "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
                 },
                 {
                     "nome": "aula oito",
-                    "nomeUrl": "aula-oito"
+                    "title": "titulo da aula",
+                    "nomeUrl": "aula-oito",
+                    "video": "https://www.youtube.com/embed/HAt4U65esaM?si=pubVGsxYzv_2QgmS",
+                    "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
                 },
                 {
                     "nome": "aula nove",
-                    "nomeUrl": "aula-nove"
+                    "title": "titulo da aula",
+                    "nomeUrl": "aula-nove",
+                    "video": "https://www.youtube.com/embed/HAt4U65esaM?si=pubVGsxYzv_2QgmS",
+                    "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
                 },
                 {
                     "nome": "aula dez",
-                    "nomeUrl": "aula-dez"
+                    "title": "titulo da aula",
+                    "nomeUrl": "aula-dez",
+                    "video": "https://www.youtube.com/embed/HAt4U65esaM?si=pubVGsxYzv_2QgmS",
+                    "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
                 },
                 {
                     "nome": "aula onze",
-                    "nomeUrl": "aula-onze"
+                    "title": "titulo da aula",
+                    "nomeUrl": "aula-onze",
+                    "video": "https://www.youtube.com/embed/HAt4U65esaM?si=pubVGsxYzv_2QgmS",
+                    "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
                 },
                 {
                     "nome": "aula dose",
-                    "nomeUrl": "aula-dose"
+                    "title": "titulo da aula",
+                    "nomeUrl": "aula-dose",
+                    "video": "https://www.youtube.com/embed/HAt4U65esaM?si=pubVGsxYzv_2QgmS",
+                    "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
                 }
             ]
         }
