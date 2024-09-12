@@ -1,0 +1,39 @@
+<div class="teste-de-nivelamento-container">
+  <div class="tela-escura">
+    <div class="teste-de-nivelamento">
+      <div class="bem-vindo-e-result" *ngIf="bvdOrResul">
+        <div class="title">{{testeTitle}}</div>
+
+        <div class="text" [innerHTML]="testeText"></div>
+
+        <div class="button-container">
+          <button (click)="vaParaQuestoes()">{{btnComecaText}}</button>
+        </div>
+      </div>
+
+      <div *ngFor="let value of perguntasTDN">
+        <div class="questoes" *ngIf="!bvdOrResul && questaoAtual == value.id">
+          <div class="title">Questão {{value.id}}/{{perguntasTDN.length}}</div>
+
+          <div class="corpo-do-teste">
+            <div class="enunciado">{{value.questao}}</div>
+
+            <div class="respostas-center">
+              <div class="respostas">
+                <div *ngFor="let valueRespostas of value.respostas">
+                  <button class="desativado" id="btnQ{{value.id}}R{{valueRespostas.id}}" (click)="selecionaResposta(value.id, valueRespostas.id)">{{valueRespostas.texto}}</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="btn-teste-container">
+              <button [ngClass]="btnCont ? 'desligado' : 'ativo'" [disabled]="btnCont" (click)="continuaFinalizaTeste()">Continuar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+

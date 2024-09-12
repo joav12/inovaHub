@@ -217,5 +217,79 @@
                 }
             ]
         }
+    ],
+    "perguntasTDN":[
+      {
+        "id": 1,
+        "questao": "Essa é a questão 1",
+        "respostas": [
+          {
+            "id": 1,
+            "texto": "Resposta 1",
+            "eACorreta": false
+          },
+          {
+            "id": 2,
+            "texto": "Resposta 2",
+            "eACorreta": false
+          },        {
+            "id": 3,
+            "texto": "Resposta 3",
+            "eACorreta": true
+          },        {
+            "id": 4,
+            "texto": "Resposta 4",
+            "eACorreta": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "questao": "Essa é a questão 2",
+        "respostas": [
+          {
+            "id": 1,
+            "texto": "Resposta 1",
+            "eACorreta": true
+          },
+          {
+            "id": 2,
+            "texto": "Resposta 2",
+            "eACorreta": false
+          },        {
+            "id": 3,
+            "texto": "Resposta 3",
+            "eACorreta": false
+          },        {
+            "id": 4,
+            "texto": "Resposta 4",
+            "eACorreta": false
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "questao": "Essa é a questão 3",
+        "respostas": [
+          {
+            "id": 1,
+            "texto": "Resposta 1",
+            "eACorreta": false
+          },
+          {
+            "id": 2,
+            "texto": "Resposta 2",
+            "eACorreta": false
+          },        {
+            "id": 3,
+            "texto": "Resposta 3",
+            "eACorreta": false
+          },        {
+            "id": 4,
+            "texto": "Resposta 4",
+            "eACorreta": true
+          }
+        ]
+      }
     ]
 }
