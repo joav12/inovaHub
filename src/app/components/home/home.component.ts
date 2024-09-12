@@ -18,6 +18,7 @@ export class HomeComponent {
   //Só to definindo uma variavel para deixar os dados do mock (apenas presisarei chamar ela para utilizar os dados do "banco")
   public cursos = mockData.cursos;
   public aulasFeitasNum: any;
+  public nivelUser = sessionStorage.getItem('nivelUser')
 
   verificaBarrinha(nomeCurso: any){
     this.aulasFeitasNum = sessionStorage.getItem(`aulasFeitas${nomeCurso}`);
@@ -36,5 +37,20 @@ export class HomeComponent {
     const porcentagemDeAulasFeitas = (this.aulasFeitasNum * 100) / dados.aulas.length
 
     return { 'background': "linear-gradient(to right, #0063F7 " + porcentagemDeAulasFeitas + "%, #C7C9D9 " + porcentagemDeAulasFeitas + "%)" }
+  }
+
+  filtroCursosPorNivel(){
+    var cursosFiltrados = [];
+    for(let data of this.cursos){
+      if(data.nivel == this.nivelUser){
+        cursosFiltrados.push(data)
+      }
+    }
+
+    this.cursos = cursosFiltrados
+  }
+
+  ngOnInit(): void{
+    this.filtroCursosPorNivel();
   }
 }

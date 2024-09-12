@@ -7,7 +7,7 @@
         <div class="text" [innerHTML]="testeText"></div>
 
         <div class="button-container">
-          <button (click)="vaParaQuestoes()">Começar</button>
+          <button (click)="vaParaQuestoes()">{{btnComecaText}}</button>
         </div>
       </div>
 
@@ -21,13 +21,13 @@
             <div class="respostas-center">
               <div class="respostas">
                 <div *ngFor="let valueRespostas of value.respostas">
-                  <button ngClass="desativado" id="btnQ{{value.id}}R{{valueRespostas.id}}" (click)="selecionaResposta(value.id, valueRespostas.id)">{{valueRespostas.texto}}</button>
+                  <button class="desativado" id="btnQ{{value.id}}R{{valueRespostas.id}}" (click)="selecionaResposta(value.id, valueRespostas.id)">{{valueRespostas.texto}}</button>
                 </div>
               </div>
             </div>
 
             <div class="btn-teste-container">
-              <button [ngClass]="btnCont ? 'desligado' : 'ativo'" [disabled]="btnCont" (click)="continuaFinalizaTeste(value.respostas)">Continuar</button>
+              <button [ngClass]="btnCont ? 'desligado' : 'ativo'" [disabled]="btnCont" (click)="continuaFinalizaTeste()">Continuar</button>
             </div>
           </div>
         </div>
