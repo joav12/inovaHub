@@ -21,13 +21,13 @@
             <div class="respostas-center">
               <div class="respostas">
                 <div *ngFor="let valueRespostas of value.respostas">
-                  <button>{{valueRespostas.texto}}</button>
+                  <button ngClass="desativado" id="btnQ{{value.id}}R{{valueRespostas.id}}" (click)="selecionaResposta(value.id, valueRespostas.id)">{{valueRespostas.texto}}</button>
                 </div>
               </div>
             </div>
 
             <div class="btn-teste-container">
-              <button class="desligado">Continuar</button>
+              <button [ngClass]="btnCont ? 'desligado' : 'ativo'" [disabled]="btnCont" (click)="continuaFinalizaTeste(value.respostas)">Continuar</button>
             </div>
           </div>
         </div>
