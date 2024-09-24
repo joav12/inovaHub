@@ -1,4 +1,18 @@
 .roadmap-container{
+  .hover-details{
+    z-index: 10000000;
+    position: absolute;
+    border-radius: 14px;
+    background-color: #39D98A;
+    min-height: 120px;
+    width: 150px;
+    padding: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+  }
+
     header{
       display: flex;
       justify-content: space-around;
