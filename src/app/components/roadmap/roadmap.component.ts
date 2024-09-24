@@ -38,6 +38,11 @@ export class RoadmapComponent {
   public retaFinalClass = '';
   public iconName = 'arrow_right';
   public aulasFeitasNum: any;
+  public hoverMenu: boolean = false;
+  public topHoverMenu: string = '';
+  public leftHoverMenu: string = '';
+  public hoverTitle: string = '';
+  public hoverDesc: string = '';
 
   //Essa função pega apenas o curso que tem o nome que está no parametro da url
   especifcCourse(){
@@ -133,6 +138,14 @@ export class RoadmapComponent {
     else{
       return `${this.aulasFeitasNum}`
     }
+  }
+
+  createHoveMenu(idAula: any, posMouse: any){
+    this.topHoverMenu = `${posMouse.layerY}px`;
+    this.leftHoverMenu = `${posMouse.layerX}px`;
+    this.hoverTitle = this.course.aulas[idAula].nome;
+    this.hoverDesc = this.course.aulas[idAula].title;
+    this.hoverMenu = true;
   }
 
   tamanhoBarraAulas(){
