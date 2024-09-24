@@ -1,8 +1,8 @@
 {
     "cursos":[
         {
-            "nome": "Curso teste um",
-            "nomeUrl": "curso-teste-um",
+            "nome": "Gestão de impostos",
+            "nomeUrl": "gestao-de-impostos",
             "nivel": "iniciante",
             "aulas":[
                 {
@@ -29,8 +29,8 @@
             ]
         },
         {
-            "nome": "Curso teste dois",
-            "nomeUrl": "curso-teste-dois",
+            "nome": "Planejamento Tributário",
+            "nomeUrl": "planejamento-tributario",
             "nivel": "intermediario",
             "aulas":[
                 {
@@ -71,8 +71,8 @@
             ]
         },
         {
-            "nome": "Curso teste tres",
-            "nomeUrl": "curso-teste-tres",
+            "nome": "Análise de Rentabilidade",
+            "nomeUrl": "analise-de-rentabilidade",
             "nivel": "avancado",
             "aulas":[
                 {
@@ -127,8 +127,8 @@
             ]
         },
         {
-            "nome": "Curso teste quatro",
-            "nomeUrl": "curso-teste-quatro",
+            "nome": "Gestão de ativos fixos",
+            "nomeUrl": "gestao-de-ativos-fixos",
             "nivel": "avancado",
             "aulas":[
                 {
@@ -221,73 +221,73 @@
     "perguntasTDN":[
       {
         "id": 1,
-        "questao": "Essa é a questão 1",
+        "questao": "Quais são os dois principais tipos de impostos no Brasil?",
         "respostas": [
           {
             "id": 1,
-            "texto": "Resposta 1",
+            "texto": "Impostos sobre a renda e tributos sobre bens",
             "eACorreta": false
           },
           {
             "id": 2,
-            "texto": "Resposta 2",
+            "texto": "Impostos diretos e indiretos",
             "eACorreta": false
           },        {
             "id": 3,
-            "texto": "Resposta 3",
-            "eACorreta": true
+            "texto": "Impostos Federais e Municipais",
+            "eACorreta": false
           },        {
             "id": 4,
-            "texto": "Resposta 4",
-            "eACorreta": false
+            "texto": "Impostos Federais e Estaduais",
+            "eACorreta": true
           }
         ]
       },
       {
         "id": 2,
-        "questao": "Essa é a questão 2",
+        "questao": "Qual é o principal objetivo do planejamento tributário?",
         "respostas": [
           {
             "id": 1,
-            "texto": "Resposta 1",
-            "eACorreta": true
+            "texto": "Evitar o pagamento de impostos",
+            "eACorreta": false
           },
           {
             "id": 2,
-            "texto": "Resposta 2",
+            "texto": "Aumentar a carga tributária",
             "eACorreta": false
           },        {
             "id": 3,
-            "texto": "Resposta 3",
-            "eACorreta": false
+            "texto": "Reduzir legalmente a carga tributária",
+            "eACorreta": true
           },        {
             "id": 4,
-            "texto": "Resposta 4",
+            "texto": "Mudar a forma de cobrança de impostos",
             "eACorreta": false
           }
         ]
       },
       {
         "id": 3,
-        "questao": "Essa é a questão 3",
+        "questao": "Qual dessas estratégias faz parte do planejamento tributário?",
         "respostas": [
           {
             "id": 1,
-            "texto": "Resposta 1",
+            "texto": "Reduzir os lucros da empresa",
             "eACorreta": false
           },
           {
             "id": 2,
-            "texto": "Resposta 2",
-            "eACorreta": false
+            "texto": "Postergar o pagamento de tributos dentro da lei",
+            "eACorreta": true
           },        {
             "id": 3,
-            "texto": "Resposta 3",
+            "texto": "Aumentar as despesas fixas da empresa",
             "eACorreta": false
           },        {
             "id": 4,
-            "texto": "Resposta 4",
-            "eACorreta": true
+            "texto": "Alterar a categoria da empresa para evitar tributos",
+            "eACorreta": false
           }
         ]
       }
