@@ -1,6 +1,6 @@
 <div class="desafios-container">
   <div class="desafios-diarios">
-      <h2>Desafios diários</h2>
+      <h2>Desafios diários | tempo disponivel: {{this.tempoDiario | date:'H:mm'}} horas</h2>
 
       <div class="desafios-display">
         <div *ngFor="let data of desafios.diarios">
@@ -16,7 +16,7 @@
   </div>
 
   <div class="desafios-semanais">
-    <h2>Desafios semanais</h2>
+    <h2>Desafios semanais | tempo disponivel: {{diaDaSemana(this.tempoSemanal | date:'EEEE')}} dias e {{this.tempoDiario | date:'H:mm'}} horas</h2>
 
     <div class="desafios-display">
       <div *ngFor="let data of desafios.semanais">
