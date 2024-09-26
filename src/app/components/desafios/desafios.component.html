@@ -1,1 +1,33 @@
-<p>desafios works!</p>
+<div class="desafios-container">
+  <div class="desafios-diarios">
+      <h2>Desafios diários | tempo disponivel: {{this.tempoDiario | date:'H:mm'}} horas</h2>
+
+      <div class="desafios-display">
+        <div *ngFor="let data of desafios.diarios">
+          <div class="desafio-container">
+            <p>{{data.desafioTitle}}</p>
+            <div class="bar-objetivo">
+              <div class="complete-bar" [ngStyle]="tamanhoBarraAulas(data, 'diario')"></div>
+              <p>{{data.tipo == 'aula' ? aulasFeitasNum : (data.tipo == 'cursoC' ? cursosComecados : (data.tipo == 'cursoF' ? cursosFinalizados : ''))}}/{{data.numeroDeObjetivos}}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+
+  <div class="desafios-semanais">
+    <h2>Desafios semanais | tempo disponivel: {{diaDaSemana(this.tempoSemanal | date:'EEEE')}} dias e {{this.tempoDiario | date:'H:mm'}} horas</h2>
+
+    <div class="desafios-display">
+      <div *ngFor="let data of desafios.semanais">
+        <div class="desafio-container">
+          <p>{{data.desafioTitle}}</p>
+          <div class="bar-objetivo">
+            <div class="complete-bar" [ngStyle]="tamanhoBarraAulas(data, 'semanal')"></div>
+            <p>{{data.tipo == 'aula' ? aulasFeitasNum : (data.tipo == 'cursoC' ? cursosComecados : (data.tipo == 'cursoF' ? cursosFinalizados : ''))}}/{{data.numeroDeObjetivos}}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

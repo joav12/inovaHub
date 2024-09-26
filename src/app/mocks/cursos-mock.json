@@ -291,5 +291,40 @@
           }
         ]
       }
-    ]
+    ],
+    "desafios":
+      {
+        "diarios":[
+          {
+            "id": 1,
+            "desafioTitle": "Faça 5 aulas",
+            "estaFeita": false,
+            "numeroDeObjetivos": 5,
+            "tipo": "aula"
+          },
+          {
+            "id": 2,
+            "desafioTitle": "Comece 1 curso",
+            "estaFeita": false,
+            "numeroDeObjetivos": 1,
+            "tipo": "cursoC"
+          }
+        ],
+        "semanais":[
+          {
+            "id": 1,
+            "desafioTitle": "Termine 1 curso",
+            "estaFeita": false,
+            "numeroDeObjetivos": 1,
+            "tipo": "cursoF"
+          },
+          {
+            "id": 2,
+            "desafioTitle": "Termine 2 cursos",
+            "estaFeita": false,
+            "numeroDeObjetivos": 2,
+            "tipo": "cursoF"
+          }
+        ]
+      }
 }

@@ -5,7 +5,7 @@ import { CommonModule } from '@angular/common';
 
 //Mesma importação da home
 import mockData from "../../mocks/cursos-mock.json"
-import { DomSanitizer } from '@angular/platform-browser';
+import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-aula',
@@ -72,10 +72,33 @@ export class AulaComponent {
     sessionStorage.setItem(`aulaDados${this.classId-1}${this.course.nomeUrl}`, 'finishedClass');
     sessionStorage.setItem(`aulaDados${this.classId}${this.course.nomeUrl}`, 'pendente');
     sessionStorage.setItem(`aulasFeitas${this.course.nomeUrl}`, this.classId);
+    if(sessionStorage.getItem('aulasfeitas')){
+      sessionStorage.setItem('aulasfeitas', `${parseInt(sessionStorage.getItem('aulasfeitas')!, 10) + 1}`);
+    }
+    else{
+      sessionStorage.setItem('aulasfeitas', "1");
+    }
+
+    if((this.classId - 1) == 0){
+      if(sessionStorage.getItem('cursosComecados')){
+        sessionStorage.setItem('cursosComecados', `${parseInt(sessionStorage.getItem('cursosComecados')!, 10) + 1}`);
+      }
+      else{
+        sessionStorage.setItem('cursosComecados', `1`)
+      }
+    }
+    else if(this.classId == this.course.aulas.length){
+      if(sessionStorage.getItem('cursosFinalizados')){
+        sessionStorage.setItem('cursosFinalizados', `${parseInt(sessionStorage.getItem('cursosFinalizados')!, 10) + 1}`);
+      }
+      else{
+        sessionStorage.setItem('cursosFinalizados', `1`)
+      }
+    }
     this.router.navigate([`/roadmap/${this.course.nomeUrl}`]);
   }
 
-  retornaVideo(){
+  public retornaVideo(): SafeResourceUrl{
     this.aulaVideo = this.course.aulas[this.classId-1].video;
     return this.sanitazer.bypassSecurityTrustResourceUrl(this.aulaVideo)
   }
