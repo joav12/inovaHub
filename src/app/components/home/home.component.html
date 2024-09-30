@@ -7,6 +7,7 @@
                 <a [routerLink]="['/roadmap', data.nomeUrl]">
                   {{verificaBarrinha(data.nomeUrl)}}
                     <div class="curso-container">
+                        <img *ngIf="aulasFeitasNum == data.aulas.length" src="assets/img/roadmap/Medalha.png" alt="MEDALHAS" class="medalha">
                         <p>{{data.nome}}</p>
                         <div class="bar-aulas">
                             <div class="complete-bar" [ngStyle]="tamanhoBarraAulas(data)"></div>
@@ -26,6 +27,7 @@
                 <a [routerLink]="['/roadmap', data.nomeUrl]">
                   {{verificaBarrinha(data.nomeUrl)}}
                     <div class="curso-container">
+                        <img *ngIf="aulasFeitasNum == data.aulas.length" src="assets/img/roadmap/Medalha.png" alt="MEDALHAS" class="medalha">
                         <p>{{data.nome}}</p>
                         <div class="bar-aulas">
                             <div class="complete-bar" [ngStyle]="tamanhoBarraAulas(data)"></div>

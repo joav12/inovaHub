@@ -26,6 +26,8 @@
           <div> {{verificaAulasCursos(i, course.nomeUrl)}}
             <a [routerLink]="aulaStatus !== 'lockedClass' ? ['aula', i+1] : ['/roadmap', course.nomeUrl]" (mouseenter)="createHoveMenu(i, $event)" (mouseleave)="hoverMenu = false">
               <div [ngClass]="i >= course.aulas.length - retaFinal ? retaFinalClass : curvpath(i)" [id]="i == 0 ? 'aula1' : ''" >
+                <img *ngIf="i % 2 === 0" [ngClass]="mudaNuvem()" src="assets/img/roadmap/Nuvens.png" alt="NUVEM">
+                <img *ngIf="aulaStatus == 'finishedClass'" src="assets/img/roadmap/Medalha.png" alt="MEDAsLHA" class="medalha">
                 <div class="ball-path" *ngIf="course.aulas[i+1] && i >= course.aulas.length - retaFinal ? resetaEspelhado() : false"></div>
                 <span class="material-symbols-outlined ball-path-curve" *ngIf="i < course.aulas.length - retaFinal">
                   line_curve

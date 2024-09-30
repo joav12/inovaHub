@@ -46,7 +46,7 @@
       <h2 class="title">aula {{classId}}: {{course.aulas[classId-1].title}}</h2>
 
       <div class="video-display">
-        <iframe width="460" height="250" [src]='retornaVideo()' frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe width="560" height="315" [src]="retornaVideo()" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
       </div>
 
       <a (click)="finalizaAula()" class="btn-avancar">
