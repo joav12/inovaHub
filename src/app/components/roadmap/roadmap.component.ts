@@ -43,6 +43,7 @@ export class RoadmapComponent {
   public leftHoverMenu: string = '';
   public hoverTitle: string = '';
   public hoverDesc: string = '';
+  public nuvemClass: string = 'nuvemDireita';
 
   //Essa função pega apenas o curso que tem o nome que está no parametro da url
   especifcCourse(){
@@ -152,6 +153,17 @@ export class RoadmapComponent {
     const porcentagemDeAulasFeitas = (this.aulasFeitasNum * 100) / this.course.aulas.length
 
     return { 'background': "linear-gradient(to right, #0063F7 " + porcentagemDeAulasFeitas + "%, #C7C9D9 " + porcentagemDeAulasFeitas + "%)" }
+  }
+
+ public mudaNuvem(): string{
+    if(this.nuvemClass == 'nuvemDireita'){
+      this.nuvemClass = 'nuvemEsquerda'
+      return this.nuvemClass
+    }
+    else{
+      this.nuvemClass = 'nuvemDireita'
+      return this.nuvemClass
+    }
   }
 
   desceTodaTela(){
