@@ -72,15 +72,17 @@ export class TesteDeNivelamentoComponent {
   }
 
   testeShowResult(){
-    this.testeTitle = `Seu nivel é: ${this.nivelUser}`
     if(this.nivelUser == 'iniciante'){
+      this.testeTitle = `Seu nivel é: Iniciante`;
       this.testeText = "Um perfil iniciante na área de finanças é alguém que está nos estágios iniciais de sua jornada de compreensão do mundo financeiro. <br><br> Essa pessoa já possui um entendimento básico de conceitos como orçamento e investimento, mas está no processo de aprofundar esse conhecimento.";
     }
     else if(this.nivelUser == 'intermediario'){
-      this.testeText = "Um perfil intermediário é de alguém que ja tém um conhecimento bom sobre financias mas ainda não é um mestre sobre o assunto.";
+      this.testeTitle = `Seu nivel é: Intermediário`
+      this.testeText = "Um perfil intermediário é de alguém que ja tém um conhecimento bom sobre finanças mas ainda não é um mestre sobre o assunto.";
     }
     else{
-      this.testeText = "PARABÉNS! Seu perfil é avançado <br><br> Você definitivamente sabe sobre finâncias";
+      this.testeTitle = `Seu nivel é: Avançado`
+      this.testeText = "PARABÉNS! Seu perfil é avançado <br><br> Você definitivamente sabe sobre finânças";
     }
 
     this.btnComecaText = "Finalizar";
