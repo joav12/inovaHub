@@ -37,12 +37,13 @@
         display: flex;
         font-weight: 500;
         gap: 20px;
+        width: 100%;
 
         .perfil, .sobre-mim, .medalhas{
             background: #F6F6F6;
             border-radius: 14px;
         }
-        
+
         .title-btn{
             display: flex;
             justify-content: space-between;
@@ -55,7 +56,7 @@
 
         .perfil{
             padding: 30px;
-            width: 585px;
+            width: 80%;
             height: 410px;
 
             .title-btn{ margin-bottom: 50px; }
@@ -69,7 +70,7 @@
             .sobre-mim, .medalhas{ padding: 20px; }
 
             .sobre-mim{
-                width: 455px;
+                width: 100%;
                 height: 150px;
                 margin-bottom: 20px;
 
@@ -109,4 +110,14 @@
             }
         }
     }
+}
+
+@media (max-width: 1000px) {
+  .conta-container{
+    .sobre-container{
+      flex-direction: column;
+
+      .perfil{ width: 100%; }
+    }
+  }
 }
