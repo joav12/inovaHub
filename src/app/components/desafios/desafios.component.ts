@@ -16,7 +16,7 @@ export class DesafiosComponent {
   public cursosFinalizados: number = 0;
   public cursosComecados: number = 0;
   public aulasFeitasNum: number = 0;
-  public tempoDiario: number = Date.now() - Date.parse('December 31 2015 5:59:59');;
+  public tempoDiario: number = Date.now() - Date.parse('December 31 2015 8:59:59');;
   public tempoSemanal: number = Date.now();
   public diaNumero: number = 0;
 

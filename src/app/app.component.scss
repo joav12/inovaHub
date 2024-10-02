@@ -9,6 +9,11 @@
         padding: 20px;
         box-shadow: 3px -4px 3px #d1d1d1;
         gap: 40px;
+        position: fixed;
+        height: 100%;
+        overflow: auto;
+        width: 260px;
+        max-width: 260px;
 
         .inova-icon-home-btn{
             display: flex;
@@ -59,6 +64,7 @@
             gap: 10px;
 
             a{
+                color: #0164f8;
                 padding: 10px;
                 display: flex;
                 text-decoration: none;
@@ -83,5 +89,6 @@
 
     .general-container{
       padding: 20px;
+      margin-left: 260px;
     }
 }
