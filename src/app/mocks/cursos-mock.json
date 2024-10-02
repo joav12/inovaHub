@@ -7,24 +7,24 @@
             "aulas":[
                 {
                     "nome": "aula um",
-                    "title": "titulo da aula",
+                    "title": "Introdução à Gestão de Impostos",
                     "nomeUrl": "aula-um",
                     "video": "https://www.youtube.com/embed/cKWFUvkWRCk?si=22mnq2O57ure8sRT",
-                    "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                    "texto": "A gestão de impostos envolve a análise, planejamento e acompanhamento das obrigações fiscais. Isso inclui a correta apuração dos tributos, a elaboração de declarações e o pagamento dentro dos prazos estabelecidos. Uma gestão eficaz não apenas assegura a conformidade com a legislação, mas também pode resultar em economia significativa para o contribuinte."
                 },
                 {
                     "nome": "aula dois",
-                    "title": "titulo da aula",
+                    "title": "Estratégias de Planejamento Tributário",
                     "nomeUrl": "aula-dois",
                     "video": "https://www.youtube.com/embed/cKWFUvkWRCk?si=22mnq2O57ure8sRT",
-                    "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                    "texto": "O planejamento tributário é uma prática essencial para a gestão financeira de indivíduos e empresas. Consiste na análise e na utilização de estratégias legais para minimizar a carga tributária, otimizar recursos e garantir a conformidade com a legislação. Ao adotar um planejamento adequado, é possível alcançar uma significativa economia fiscal e evitar problemas com o fisco."
                 },
                 {
                     "nome": "aula tres",
-                    "title": "titulo da aula",
+                    "title": "Auditoria e Gestão de Riscos Fiscais",
                     "nomeUrl": "aula-tres",
                     "video": "https://www.youtube.com/embed/cKWFUvkWRCk?si=22mnq2O57ure8sRT",
-                    "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                    "texto": "A auditoria e a gestão de riscos fiscais são componentes cruciais para a sustentabilidade financeira e a conformidade legal de empresas e indivíduos. Com a complexidade crescente da legislação tributária e a intensificação das fiscalizações, a adoção de práticas adequadas para identificar e mitigar riscos fiscais se tornou uma prioridade para muitas organizações."
                 }
             ]
         },
@@ -35,38 +35,38 @@
             "aulas":[
                 {
                     "nome": "aula um",
-                    "title": "titulo da aula",
+                    "title": "Fundamentos do Planejamento Tributário",
                     "nomeUrl": "aula-um",
                     "video": "https://www.youtube.com/embed/cKWFUvkWRCk?si=22mnq2O57ure8sRT",
-                    "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                    "texto": "O planejamento tributário é uma ferramenta essencial para a gestão financeira de empresas e indivíduos, permitindo a organização das obrigações fiscais de forma a minimizar a carga tributária e garantir a conformidade com a legislação. Compreender os fundamentos do planejamento tributário é fundamental para aproveitar os benefícios que ele oferece, evitando riscos e potenciais"
                 },
                 {
                     "nome": "aula dois",
-                    "title": "titulo da aula",
+                    "title": "Regimes Tributários e suas Implicações",
                     "nomeUrl": "aula-dois",
                     "video": "https://www.youtube.com/embed/cKWFUvkWRCk?si=22mnq2O57ure8sRT",
-                    "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                    "texto": "Os regimes tributários são conjuntos de regras e normas que definem como os tributos são calculados, pagos e administrados pelas empresas. A escolha do regime tributário adequado é uma decisão estratégica que pode ter um impacto significativo na carga tributária, na gestão financeira e nas operações de um negócio. Neste texto, vamos explorar os principais regimes tributários disponíveis no Brasil e suas implicações."
                 },
                 {
                     "nome": "aula tres",
-                    "title": "titulo da aula",
+                    "title": "Estratégias de Redução da Carga Tributária",
                     "nomeUrl": "aula-tres",
                     "video": "https://www.youtube.com/embed/cKWFUvkWRCk?si=22mnq2O57ure8sRT",
-                    "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                    "texto": "A redução da carga tributária é um objetivo constante para empresas e indivíduos que buscam otimizar seus recursos financeiros e aumentar a rentabilidade. No entanto, é fundamental que as estratégias adotadas sejam legais e éticas, respeitando a legislação vigente. Neste texto, abordaremos algumas das principais estratégias para a redução da carga tributária, destacando como implementá-las de maneira eficaz."
                 },
                 {
                     "nome": "aula quatro",
-                    "title": "titulo da aula",
+                    "title": "Aspectos Éticos e Legais do Planejamento Tributário",
                     "nomeUrl": "aula-quatro",
                     "video": "https://www.youtube.com/embed/cKWFUvkWRCk?si=22mnq2O57ure8sRT",
-                    "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                    "texto": "O planejamento tributário é uma prática essencial para empresas e indivíduos que buscam otimizar sua carga tributária. No entanto, ao implementar estratégias fiscais, é crucial considerar não apenas a legalidade, mas também a ética dessas ações. A linha que separa o planejamento tributário legítimo da evasão fiscal é muitas vezes tênue, e transgredi-la pode levar a consequências severas, incluindo penalidades legais e danos à reputação."
                 },
                 {
                     "nome": "aula cinco",
-                    "title": "titulo da aula",
+                    "title": "Auditoria e Revisão do Planejamento Tributário",
                     "nomeUrl": "aula-cinco",
                     "video": "https://www.youtube.com/embed/cKWFUvkWRCk?si=22mnq2O57ure8sRT",
-                    "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                    "texto": "A auditoria e a revisão do planejamento tributário são processos fundamentais para garantir que as estratégias adotadas por uma empresa estejam alinhadas com a legislação vigente e sejam efetivas na otimização da carga tributária. Em um ambiente de negócios dinâmico e complexo, onde as regras fiscais estão em constante mudança, a auditoria tributária se torna uma prática essencial para a saúde financeira e a conformidade das organizações."
                 }
             ]
         },
@@ -133,87 +133,87 @@
             "aulas":[
                 {
                     "nome": "aula um",
-                    "title": "titulo da aula",
+                    "title": "Introdução à Gestão de Ativos Fixos",
                     "nomeUrl": "aula-um",
                     "video": "https://www.youtube.com/embed/cKWFUvkWRCk?si=22mnq2O57ure8sRT",
-                    "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                    "texto": "A gestão de ativos fixos é um componente essencial da administração financeira de qualquer organização. Esses ativos, que incluem imóveis, maquinários, veículos e equipamentos, são fundamentais para o funcionamento das operações e, frequentemente, representam uma parte significativa do capital investido. Uma gestão eficiente não apenas maximiza o retorno sobre o investimento, mas também garante a sustentabilidade e a continuidade dos negócios."
                 },
                 {
                     "nome": "aula dois",
-                    "title": "titulo da aula",
+                    "title": "Classificação dos Ativos Fixos",
                     "nomeUrl": "aula-dois",
                     "video": "https://www.youtube.com/embed/cKWFUvkWRCk?si=22mnq2O57ure8sRT",
-                    "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                    "texto": "A classificação dos ativos fixos é uma etapa fundamental na gestão financeira das empresas, pois permite uma melhor organização, controle e análise dos bens tangíveis e intangíveis que a empresa possui. Os ativos fixos são geralmente divididos em categorias que refletem suas características, funções e métodos de depreciação. Compreender essas classificações é essencial para uma gestão eficiente e para a tomada de decisões estratégicas. Abaixo, discutiremos as principais categorias de ativos fixos."
                 },
                 {
                     "nome": "aula tres",
-                    "title": "titulo da aula",
+                    "title": "Aquisição de Ativos Fixos",
                     "nomeUrl": "aula-tres",
                     "video": "https://www.youtube.com/embed/cKWFUvkWRCk?si=22mnq2O57ure8sRT",
                     "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
                 },
                 {
                     "nome": "aula quatro",
-                    "title": "titulo da aula",
+                    "title": "Avaliação de Ativos Fixos",
                     "nomeUrl": "aula-quatro",
                     "video": "https://www.youtube.com/embed/cKWFUvkWRCk?si=22mnq2O57ure8sRT",
-                    "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                    "texto": "A aquisição de ativos fixos é uma etapa crucial na gestão financeira de qualquer organização, pois envolve decisões estratégicas que impactam diretamente o desempenho operacional e a saúde financeira da empresa. Esses ativos, que incluem imóveis, maquinários, veículos e equipamentos, representam um investimento significativo e devem ser adquiridos com planejamento e análise cuidadosa. Neste texto, exploraremos os principais aspectos a serem considerados na aquisição de ativos fixos, bem como os métodos disponíveis para essa aquisição."
                 },
                 {
                     "nome": "aula cinco",
-                    "title": "titulo da aula",
+                    "title": "Controle e Monitoramento de Ativos Fixos",
                     "nomeUrl": "aula-cinco",
                     "video": "https://www.youtube.com/embed/cKWFUvkWRCk?si=22mnq2O57ure8sRT",
-                    "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                    "texto": "O controle e monitoramento de ativos fixos são práticas essenciais para garantir a eficiência, a segurança e a rentabilidade dos bens de uma empresa. Esses processos envolvem a implementação de sistemas que permitem acompanhar a localização, o estado, a utilização e a depreciação dos ativos ao longo de seu ciclo de vida. Um gerenciamento eficaz não apenas maximiza o retorno sobre o investimento, mas também ajuda a prevenir perdas, danos e obsolescência."
                 },
                 {
                     "nome": "aula seis",
-                    "title": "titulo da aula",
+                    "title": "Manutenção de Ativos Fixos",
                     "nomeUrl": "aula-seis",
                     "video": "https://www.youtube.com/embed/cKWFUvkWRCk?si=22mnq2O57ure8sRT",
-                    "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                    "texto": "A manutenção de ativos fixos é um componente essencial da gestão patrimonial em qualquer organização. Envolve uma série de práticas e procedimentos destinados a preservar, reparar e otimizar o desempenho dos ativos ao longo de seu ciclo de vida. Essa manutenção não apenas garante a continuidade das operações, mas também impacta diretamente a eficiência, a segurança e a rentabilidade da empresa."
                 },
                 {
                     "nome": "aula sete",
-                    "title": "titulo da aula",
+                    "title": "Gestão de Riscos Relacionados a Ativos Fixos",
                     "nomeUrl": "aula-sete",
                     "video": "https://www.youtube.com/embed/cKWFUvkWRCk?si=22mnq2O57ure8sRT",
-                    "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                    "texto": "A gestão de riscos relacionados a ativos fixos é uma parte crucial da administração empresarial, que visa identificar, avaliar e mitigar os riscos que podem impactar negativamente o desempenho e a segurança dos bens duráveis de uma organização. Esses riscos podem se manifestar de diversas formas, desde falhas operacionais e obsolescência até danos físicos e questões regulatórias. Uma abordagem eficaz para a gestão de riscos ajuda a proteger os investimentos da empresa e garantir a continuidade das operações."
                 },
                 {
                     "nome": "aula oito",
-                    "title": "titulo da aula",
+                    "title": "Financiamento de Ativos Fixos",
                     "nomeUrl": "aula-oito",
                     "video": "https://www.youtube.com/embed/cKWFUvkWRCk?si=22mnq2O57ure8sRT",
-                    "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                    "texto": "O financiamento de ativos fixos é uma prática fundamental para muitas empresas, permitindo a aquisição de bens duráveis que são essenciais para suas operações e crescimento. Esses ativos, que podem incluir maquinários, veículos, imóveis e equipamentos, muitas vezes demandam investimentos significativos, que nem sempre estão disponíveis em caixa. Neste contexto, entender as opções de financiamento e suas implicações é crucial para uma gestão financeira eficaz."
                 },
                 {
                     "nome": "aula nove",
-                    "title": "titulo da aula",
+                    "title": "Desinvestimento e Alienação de Ativos Fixos",
                     "nomeUrl": "aula-nove",
                     "video": "https://www.youtube.com/embed/cKWFUvkWRCk?si=22mnq2O57ure8sRT",
-                    "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                    "texto": "Desinvestimento e alienação de ativos fixos são processos estratégicos que envolvem a venda ou a descontinuação de bens duráveis que não são mais necessários ou que não estão gerando retorno adequado para a empresa. Essas práticas podem ser fundamentais para a reestruturação financeira, otimização de recursos e foco em atividades essenciais. Compreender as motivações, processos e impactos do desinvestimento é essencial para uma gestão eficaz dos ativos de uma organização."
                 },
                 {
                     "nome": "aula dez",
-                    "title": "titulo da aula",
+                    "title": "Impacto da Tecnologia na Gestão de Ativos Fixos",
                     "nomeUrl": "aula-dez",
                     "video": "https://www.youtube.com/embed/cKWFUvkWRCk?si=22mnq2O57ure8sRT",
-                    "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                    "texto": "A tecnologia tem desempenhado um papel transformador na gestão de ativos fixos, proporcionando às empresas ferramentas e soluções que melhoram a eficiência, a visibilidade e o controle sobre seus bens duráveis. Com o avanço das tecnologias digitais, como Internet das Coisas (IoT), Big Data e inteligência artificial, as práticas de gestão de ativos evoluíram, permitindo uma abordagem mais proativa e informada."
                 },
                 {
                     "nome": "aula onze",
-                    "title": "titulo da aula",
+                    "title": "Relatórios e Indicadores de Desempenho",
                     "nomeUrl": "aula-onze",
                     "video": "https://www.youtube.com/embed/cKWFUvkWRCk?si=22mnq2O57ure8sRT",
-                    "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                    "texto": "Relatórios e indicadores de desempenho são ferramentas essenciais para a gestão eficaz de qualquer organização. Eles permitem que os gestores monitorem o progresso em relação aos objetivos estratégicos, identifiquem áreas que necessitam de melhorias e tomem decisões informadas. Com a crescente complexidade dos ambientes de negócios, a importância desses instrumentos se torna cada vez mais evidente."
                 },
                 {
                     "nome": "aula dose",
-                    "title": "titulo da aula",
+                    "title": "Estudos de Caso em Gestão de Ativos Fixos",
                     "nomeUrl": "aula-dose",
                     "video": "https://www.youtube.com/embed/cKWFUvkWRCk?si=22mnq2O57ure8sRT",
-                    "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                    "texto": "Estudos de caso em gestão de ativos fixos oferecem uma visão aprofundada sobre como diferentes organizações enfrentam desafios e implementam práticas eficazes para otimizar o uso de seus bens duráveis. Essas análises não apenas ilustram as melhores práticas, mas também destacam as lições aprendidas que podem ser aplicadas em contextos variados. A seguir, apresentamos alguns exemplos de estudos de caso que refletem a diversidade de abordagens na gestão de ativos fixos."
                 }
             ]
         }
