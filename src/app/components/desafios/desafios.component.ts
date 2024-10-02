@@ -16,9 +16,10 @@ export class DesafiosComponent {
   public cursosFinalizados: number = 0;
   public cursosComecados: number = 0;
   public aulasFeitasNum: number = 0;
-  public tempoDiario: number = Date.now() - Date.parse('December 31 2015 8:59:59');;
+  public tempoDiario = new Date().setUTCHours(25,59,59,999);
   public tempoSemanal: number = Date.now();
   public diaNumero: number = 0;
+  public timer: string = '';
 
   private verificaCursosEAulas(): void{
     this,this.cursosFinalizados = Number(sessionStorage.getItem('cursosFinalizados'));
@@ -38,6 +39,16 @@ export class DesafiosComponent {
       return { 'background': "linear-gradient(to right, #0063F7 " + porcentagemDeCursos + "%, #C7C9D9 " + porcentagemDeCursos + "%)" }
     }
   }
+
+  public x = setInterval(() =>{
+    var horarioAgora = new Date().getTime();
+    var diferenca = this.tempoDiario - horarioAgora;
+    var horas = Math.floor((diferenca % (1000*60*60*24) / (1000*60*60)));
+    var minutos = Math.floor((diferenca % (1000*60*60) / (1000*60)));
+    var segundos = Math.floor((diferenca % (1000*60) / 1000));
+
+    this.timer = `${horas}h${minutos}m${segundos}s`
+  })
 
   public diaDaSemana(dia: any): number{
     if(dia == 'Monday'){
