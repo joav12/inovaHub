@@ -4,8 +4,8 @@ pipeline {
     stages {
         stage('init') {
             steps {
-                sh 'npm i'
-                sh 'npm run start'
+                npm 'install'
+                npm 'run start'
             }
         }
     }
